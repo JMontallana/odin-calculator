@@ -31,13 +31,19 @@
 
 .screen {
     background-color: white;
+    color: rgba(43, 41, 41, 0.9);
     margin-top: 2px;
     height: 89px;
     width: 340px;
     border: 2px solid black;
     border-radius: 5px;
-    font-weight: 600;
-    font-size: large;
+    font-weight: 500;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-right: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -59,19 +65,19 @@ button {
 }
 
 #minus:hover, #divide:hover, #mult:hover, .equals:hover, #plus:hover {
-    background-color: orange;
+    background-color: #BDCDD6;
 }
 
-.negative, .percent, .ac {
+.delete, #percent, .ac {
     background-color: #93BFCF;
 }
 
-.negative:hover, .percent:hover, .ac:hover {
+.delete:hover, #percent:hover, .ac:hover {
     background-color: #BDCDD6;
 }
 
 .number:hover, .dot:hover {
-    background-color: #EEE9DA;
+    background-color: #BDCDD6;
 }
 
 footer {
